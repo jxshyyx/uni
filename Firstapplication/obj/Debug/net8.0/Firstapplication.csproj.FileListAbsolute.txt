@@ -1,0 +1,28 @@
+K:\C# Projects\Firstapplication\Firstapplication\bin\Debug\net8.0\Firstapplication.exe
+K:\C# Projects\Firstapplication\Firstapplication\bin\Debug\net8.0\Firstapplication.deps.json
+K:\C# Projects\Firstapplication\Firstapplication\bin\Debug\net8.0\Firstapplication.runtimeconfig.json
+K:\C# Projects\Firstapplication\Firstapplication\bin\Debug\net8.0\Firstapplication.dll
+K:\C# Projects\Firstapplication\Firstapplication\bin\Debug\net8.0\Firstapplication.pdb
+K:\C# Projects\Firstapplication\Firstapplication\obj\Debug\net8.0\Firstapplication.GeneratedMSBuildEditorConfig.editorconfig
+K:\C# Projects\Firstapplication\Firstapplication\obj\Debug\net8.0\Firstapplication.AssemblyInfoInputs.cache
+K:\C# Projects\Firstapplication\Firstapplication\obj\Debug\net8.0\Firstapplication.AssemblyInfo.cs
+K:\C# Projects\Firstapplication\Firstapplication\obj\Debug\net8.0\Firstapplication.csproj.CoreCompileInputs.cache
+K:\C# Projects\Firstapplication\Firstapplication\obj\Debug\net8.0\Firstapplication.dll
+K:\C# Projects\Firstapplication\Firstapplication\obj\Debug\net8.0\refint\Firstapplication.dll
+K:\C# Projects\Firstapplication\Firstapplication\obj\Debug\net8.0\Firstapplication.pdb
+K:\C# Projects\Firstapplication\Firstapplication\obj\Debug\net8.0\Firstapplication.genruntimeconfig.cache
+K:\C# Projects\Firstapplication\Firstapplication\obj\Debug\net8.0\ref\Firstapplication.dll
+K:\Development\Firstapplication\Firstapplication\bin\Debug\net8.0\Firstapplication.exe
+K:\Development\Firstapplication\Firstapplication\bin\Debug\net8.0\Firstapplication.deps.json
+K:\Development\Firstapplication\Firstapplication\bin\Debug\net8.0\Firstapplication.runtimeconfig.json
+K:\Development\Firstapplication\Firstapplication\bin\Debug\net8.0\Firstapplication.dll
+K:\Development\Firstapplication\Firstapplication\bin\Debug\net8.0\Firstapplication.pdb
+K:\Development\Firstapplication\Firstapplication\obj\Debug\net8.0\Firstapplication.GeneratedMSBuildEditorConfig.editorconfig
+K:\Development\Firstapplication\Firstapplication\obj\Debug\net8.0\Firstapplication.AssemblyInfoInputs.cache
+K:\Development\Firstapplication\Firstapplication\obj\Debug\net8.0\Firstapplication.AssemblyInfo.cs
+K:\Development\Firstapplication\Firstapplication\obj\Debug\net8.0\Firstapplication.csproj.CoreCompileInputs.cache
+K:\Development\Firstapplication\Firstapplication\obj\Debug\net8.0\Firstapplication.dll
+K:\Development\Firstapplication\Firstapplication\obj\Debug\net8.0\refint\Firstapplication.dll
+K:\Development\Firstapplication\Firstapplication\obj\Debug\net8.0\Firstapplication.pdb
+K:\Development\Firstapplication\Firstapplication\obj\Debug\net8.0\Firstapplication.genruntimeconfig.cache
+K:\Development\Firstapplication\Firstapplication\obj\Debug\net8.0\ref\Firstapplication.dll
