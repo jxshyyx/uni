@@ -43,7 +43,7 @@ using System.Xml.Linq;
     //    double addition = firstNumber + secondNumber;
     //    double subtraction = firstNumber - secondNumber;
     //    double multiplication = firstNumber * secondNumber;
-    //    double division = secondNumber != 0 ? firstNumber / secondNumber : double.NaN; //  division by zero is what NaN means ( google has helped alot with this homework)
+    //    double division = secondNumber != 0 ? firstNumber / secondNumber : double.NaN; //  division by zero is what NaN means ( i got confused and did use google for a lot of this work)
 
     //    // These are what displays the results to the user
     //    Console.WriteLine($"Addition: {firstNumber} + {secondNumber} = {addition}");
