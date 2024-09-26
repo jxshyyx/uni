@@ -46,7 +46,10 @@ namespace Firstapplication
             double halfAge = age / 2.0;  // had to write 2.0 to make sure the output was also a decimal output icase someones age was an odd number e.g 21
             Console.WriteLine($"And half your age is {halfAge}!!");
 
-
+                int x = 5;
+                int y = 2;
+                int modulousResult = x % y;
+                Console.WriteLine($"x % y = {modulousResult}");
 
 
 
