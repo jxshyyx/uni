@@ -50,6 +50,145 @@ namespace Firstapplication
                 int y = 2;
                 int modulousResult = x % y;
                 Console.WriteLine($"x % y = {modulousResult}");
+                //int num1 = 5;
+
+    //int num2 = 3;
+
+    //num1 += num2; //5+3=8
+
+    //Console.WriteLine($"{num1}");
+
+    //Console.WriteLine($"{num2}");
+
+    //num1 -= num2; //8-3=5
+
+    //Console.WriteLine($"{num1}");
+
+    //Console.WriteLine($"{num2}");
+
+    //num1 *= num2; //5*3=15
+
+    //Console.WriteLine($"{num1}");
+
+    //Console.WriteLine($"{num2}");
+
+    //num1 /= num2; //15/3=5
+
+    //Console.WriteLine($"{num1}");
+
+    //Console.WriteLine($"{num2}");
+
+    //num1 %= num2; //5
+
+    //Console.WriteLine($"{num1}");
+
+    //Console.WriteLine($"{num2}");
+
+
+    // == equal to 
+    // ! != equal to 
+    // > greater than
+    // < less than
+    //>= greater or equal to
+    //<= less or equal to 
+    // && logical and returns true if both statements are true
+    // || logical or returns true if one of the statements are true
+    // ! logical not reverse the result, returns false if the result is true
+
+    //Console.WriteLine("Could you please enter your score (0-100)");
+    //int score =  Convert.ToInt32(Console.ReadLine());
+
+    //string grade;
+    //if (score >= 70)
+    //{
+    //    grade = "First";
+    //}
+    //else if (score >= 60)
+    //{
+    //    grade = "2-1";
+    //}
+    //else if (score >= 50)
+    //{
+    //    grade = "2-2";
+    //}
+    //else if (score <= 40)
+    //{
+    //    grade = "Third";
+    //}
+    //else
+    //{
+    //    grade = "Fail";
+    //}
+    //Console.WriteLine($"Your grade is {grade}");
+    //Console.WriteLine("Could you please enter your Surname name");
+    //int surname = (Console.ReadLine();
+    //Console.WriteLine("Could you please enter your first and last name");
+    //string name = Console.ReadLine();
+    //Console.WriteLine($"Hello {name} what is your age?");
+    //int age = Convert.ToInt32(Console.ReadLine());
+    //string greeting = "";
+    // if (age <= 12)
+    //{
+    //    greeting = ($"Hello {name}.Your just a kid!");
+    //}
+    //else if (age <= 19)
+    //{
+    //    greeting = ($"Hey {name}.You are a teenager now!");
+    //}
+    //else if (age >= 20)
+    //{
+    //    greeting = ($"Hi {name}.Welcome to adulthood!");
+    //}
+    //else if (age >= 65)
+    //{
+    //    greeting = ($"Hello {name}.Enjoy your golden years!");
+
+    //}
+    //Console.WriteLine (greeting);
+    Console.WriteLine("Welcome to the calculator app");
+    Console.WriteLine("Please choose an option");
+    Console.WriteLine("\t1. Addition");
+    Console.WriteLine("\t2. Subtraction");
+    Console.WriteLine("\t3. Multiplication");
+    Console.WriteLine("\t4. Division");
+    Console.WriteLine("\t5. Modulous");
+
+    int userchoice = Convert.ToInt32(Console.ReadLine());
+
+    Console.WriteLine("Please choose your first number");
+   double num1 = Convert.ToDouble(Console.ReadLine());
+
+    Console.WriteLine("Please choose your second number");
+   double num2 = Convert.ToDouble(Console.ReadLine());
+    double result = 0; 
+    switch(userchoice)
+    {
+        case 1:
+            result = num1 + num2;
+            break;
+
+        case 2:
+            result = num1 - num2;
+            break;
+
+        case 3:
+            num1 * num2;
+            break;
+
+        case 4:
+            num1 / num2;
+            break;
+
+        case 5:
+            result = num1 %= num2;
+            break;
+    }
+
+
+
+
+
+}
 
 
 
