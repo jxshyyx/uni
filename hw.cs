@@ -66,3 +66,157 @@ using System.Xml.Linq;
 
 
 
+
+
+
+
+
+
+using System.ComponentModel.Design;
+using System.Numerics;
+using System.Runtime.InteropServices;
+using System.Security.Cryptography.X509Certificates;
+using System.Xml;
+using System.Xml.Linq;
+
+
+
+            //// Show the conversion options
+            //Console.WriteLine("Choose a conversion type:");
+            //Console.WriteLine("1. Meters to Feet");
+            //Console.WriteLine("2. Kilograms to Pounds");
+            //Console.WriteLine("3. Litres to Gallons");
+            //Console.Write("Enter your choice (1-3): ");
+
+            //string choice = Console.ReadLine(); 
+
+
+            //if (choice == "1")
+            //{
+            //    Console.Write("Enter meters: ");
+            //    double meters = Convert.ToDouble(Console.ReadLine());
+            //    double feet = meters * 3.28084; 
+            //    Console.WriteLine($"{meters} meters is {feet} feet.");
+            //}
+            //else if (choice == "2")
+            //{
+            //    Console.Write("Enter kilograms: ");
+            //    double kilograms = Convert.ToDouble(Console.ReadLine()); 
+            //    double pounds = kilograms * 2.20462;
+            //    Console.WriteLine($"{kilograms} kilograms is {pounds} pounds.");
+            //}
+            //else if (choice == "3")
+            //{
+            //    Console.Write("Enter litres: ");
+            //    double litres = Convert.ToDouble(Console.ReadLine());
+            //    double gallons = litres * 0.264172; 
+            //    Console.WriteLine($"{litres} litres is {gallons} gallons.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid choice. Please try again.");
+{
+    {
+        {
+            using System;
+            Console.WriteLine("Please enter these details:");
+            Console.WriteLine("1. Name");
+            string name = (Console.ReadLine());
+            Console.WriteLine("2. Basic salary");
+            double basicsalary = Convert.ToDouble(Console.ReadLine());
+            {
+                if (basicsalary < 0) { Console.WriteLine(" Please enter a positive number")};
+                string name = (Console.ReadLine());
+                Console.WriteLine("2. Basic salary");
+            }
+            else if
+            {
+                Console.WriteLine("3. Bonus percentage");
+                double bonuspercentage = Convert.ToDouble(Console.ReadLine());
+                {
+                    if (bonuspercentage < 0)Console.WriteLine(" Please enter a positive number");
+                    string name = (Console.ReadLine());
+                    Console.WriteLine("3. Basic salary");
+                }
+            }
+            else if
+            {
+                Console.WriteLine("3. Bonus percentage");
+                double bonuspercentage = Convert.ToDouble(Console.ReadLine());
+                {
+                    if (bonuspercentage < 0)Console.WriteLine(" Please enter a positive number");
+                    string name = (Console.ReadLine());
+                    Console.WriteLine("3. Basic salary");
+                }
+            }
+
+            string bonuspercentage = Convert.ToDouble(Console.ReadLine());
+            string totalsalary = basicsalary = (basicsalary * bonuspercentage / 100);
+            string taxdeduction = totalsalary * 0.20;
+            string netsalary = totalsalary - taxdeduction;
+
+
+            Console.WriteLine($"{name}");
+            Console.WriteLine($"{basicsalary}");
+            Console.WriteLine($"{bonuspercentage}");
+            Console.WriteLine($"{totalsalary}");
+            Console.WriteLine($"{taxdeduction}");
+            Console.WriteLine($"{netsalary}");
+
+        }
+    } 
+}
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
