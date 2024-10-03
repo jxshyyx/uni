@@ -163,3 +163,88 @@ namespace Firstapplication
 
 // modulous - 5%2 will make 2 remainder 1 // assuming because you can ot have a percentage of a person so in the right circumstances thisll be useful
 
+
+
+
+
+
+
+namespace Work_03._10._24
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //int day = 2;
+
+            //switch (day)
+
+            //{
+
+            //    case 1:
+
+            //        Console.WriteLine("Today is Monday");
+
+            //        break;
+
+            //    case 2:
+
+            //        Console.WriteLine("Today is Tuesday");
+
+            //        break;
+
+            //    case 3:
+
+            //        Console.WriteLine("Today is Wednesday");
+
+            Console.WriteLine("what is your maths grade?");
+            int maths = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("what is your physics grade?");
+            int physics = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("what is your chemistry grade?");
+            int chemistry = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("what is your computing grade?");
+            int computing = Convert.ToInt32(Console.ReadLine());
+
+            int finalscore = chemistry + physics + computing + maths / 4;
+            switch (finalscore)
+                {
+                case int x when x >= 90:
+                    Console.WriteLine("Grade A");
+                    break;
+                case int x when x >= 89:
+                    Console.WriteLine("Grade B");
+                    break;
+                case int x when x >= 70:
+                    Console.WriteLine("Grade C");
+                    break;
+                case int x when x >= 60:
+                    Console.WriteLine("Grade D");
+                    break;
+                case int x when x >= 50:
+                    Console.WriteLine("Grade E");
+                    break;
+                default:
+                    Console.WriteLine("Fail");
+                    break;
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+
+    }
+
+}
+
