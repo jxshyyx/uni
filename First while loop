@@ -1,0 +1,103 @@
+
+
+
+using System.Reflection.Metadata;
+
+namespace New_project_08._10._24
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int numberOfTickets= 0 ;
+            double ticketPrice = 9.99;
+            double totalPrice;
+            bool isRunning  = true;
+            string userInput;
+            while(isRunning)
+            {
+                Console.WriteLine($"You currently have {numberOfTickets}");
+                Console.WriteLine("1- Add a ticket to your basket." +
+                    "\n2 - Remove a ticekt from your basket." +
+                    "\n3 - Complete transaction."); 
+              userInput = Console.ReadLine("");
+
+                switch (userInput)
+                {
+                    case "1":
+                        numberOfTickets++;
+                        //numberOfTickets = numberOfTickets + 1 ;
+                        //numberOfTickets += 1 ;  
+                        break;
+                        case "2":
+                        if (numberOfTickets == 0) 
+                        {
+                            numberOfTickets = numberOfTickets - 1;
+                        }
+                        else
+                        {
+                            Console.WriteLine("You dont have any tickets.");
+                        }
+                        break;
+                    case "3":
+                        isRunning = false;
+                        break;
+                    default:
+                        Console.WriteLine("Invalid choice, please enter another");
+                        break;
+
+                }
+                Console.WriteLine($"You have purchased {numberOfTickets} with a cost of £{ticketPrice = numberOfTickets}");
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+               
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+    }
+}
