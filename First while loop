@@ -48,56 +48,16 @@ namespace New_project_08._10._24
                         break;
 
                 }
-                Console.WriteLine($"You have purchased {numberOfTickets} with a cost of £{ticketPrice = numberOfTickets}");
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+                Console.WriteLine($"You have purchased {numberOfTickets} with a cost of £{ticketPrice = numberOfTickets}");        
                
             }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         }
     }
 }
+
+
+
+
+
+while (confirmation != "YES" && confirmation != "NO") ;
